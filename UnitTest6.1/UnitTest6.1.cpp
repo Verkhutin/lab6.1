@@ -12,9 +12,9 @@ namespace UnitTest61
 		
 		TEST_METHOD(TestMethod1)
 		{
-			int q = 3;
-			int t = Amount(q);
-			Assert::AreEqual(t, 3);
+			int a[5] = {-5, 2, 3, -10, 1};
+			int t = Amount(a, 5);
+			Assert::AreEqual(t, 4);
 		}
 	};
 }
